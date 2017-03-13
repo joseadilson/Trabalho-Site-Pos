@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*CSS da pagina index.html*/
+body {
+  background: url(../arquivos/aa.jpg); }
+
+h1 {
+  color: #FFF;
+  font: 1.8em Roboto, Tahoma, Arial; }
+
+nav {
+  background: #AAA; }
+  nav a {
+    color: #FFF;
+    float: right;
+    transition: all;
+    font: 1.1em Verdana, Tahoma, Arial;
+    margin-right: 40px;
+    margin-top: 6px; }
+    nav a:hover {
+      color: #DDD; }
+
+main {
+  width: 80%;
+  font-family: Verdana, Tahoma, Arial;
+  margin-left: 150px;
+  margin-top: 200px;
+  float: left;
+  color: #FFF; }
+
+/*# sourceMappingURL=estilo-index.css.map */

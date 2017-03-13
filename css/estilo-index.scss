@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$cor1: #FF0;
+$cor2: #F00;
+$cor3: #AAA;
+$cor4: #00F;
+$cor5: #FFF;
+$cor6: #DDD;
+$titulo: Tahoma, Arial;
+$descricao: Verdana, Tahoma, Arial;
+$nome-topo: Roboto, Tahoma, Arial;
+$largura: 900px;
+
+/*CSS da pagina index.html*/
+
+
+body{
+    background: url(../arquivos/aa.jpg);
+}
+
+
+h1 {
+    color: $cor5;
+    font: 1.8em $nome-topo;    
+}
+
+nav {
+    
+    background: $cor3;
+    a {
+        color: $cor5;
+        float: right;
+        transition: all;
+        font: 1.1em $descricao;
+        margin-right: 40px;
+        margin-top: 6px;
+        &:hover{
+            color: $cor6;
+        }
+    }
+}
+
+main{
+    width: 80%;
+    font-family: $descricao;
+    margin-left: 150px;
+    margin-top: 200px;
+    float: left;
+    color: $cor5;
+}
