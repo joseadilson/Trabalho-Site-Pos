@@ -15,18 +15,18 @@ $largura: 900px;
 
 
 body{
-    background: url(../arquivos/aa.jpg);
+    background: url(../arquivos/cv.jpg);
 }
 
 
-h1 {
+h1 {    
     color: $cor5;
     font: 1.8em $nome-topo;    
+    margin-left: 30px;
 }
 
 nav {
     
-    background: $cor3;
     a {
         color: $cor5;
         float: right;
@@ -44,7 +44,11 @@ main{
     width: 80%;
     font-family: $descricao;
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 170px;
     float: left;
     color: $cor5;
+
+    h2{
+        font: 1.8em $descricao;
+    }
 }
