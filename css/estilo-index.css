@@ -28,4 +28,12 @@ main {
   main h2 {
     font: 1.8em Verdana, Tahoma, Arial; }
 
+footer {
+  position: absolute;
+  font: 1em Verdana, Tahoma, Arial;
+  text-align: center;
+  color: #FFF;
+  bottom: 0;
+  margin-left: 150px; }
+
 /*# sourceMappingURL=estilo-index.css.map */

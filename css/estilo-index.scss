@@ -13,7 +13,6 @@ $largura: 900px;
 
 /*CSS da pagina index.html*/
 
-
 body{
     background: url(../arquivos/cv.jpg);
 }
@@ -51,4 +50,13 @@ main{
     h2{
         font: 1.8em $descricao;
     }
+}
+
+footer {
+    position: absolute;
+    font: 1.0em $descricao;
+    text-align: center;
+    color: $cor5;
+    bottom: 0;
+    margin-left: 150px;    
 }
