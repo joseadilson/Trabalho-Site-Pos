@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*CSS da pagina sobre.html*/
+body {
+  background: url(../arquivos/ss.jpg) no-repeat; }
+
+h1 {
+  color: #FFF;
+  font: 1.8em Roboto, Tahoma, Arial;
+  margin-left: 30px; }
+
+nav a {
+  color: #FFF;
+  float: right;
+  transition: all;
+  font: 1.1em Verdana, Tahoma, Arial;
+  margin-right: 40px;
+  margin-top: 6px; }
+  nav a:hover {
+    color: #DDD; }
+
+#container-meio {
+  margin-top: 50px; }
+  #container-meio .b-educacao {
+    margin-top: 20px; }
+
+.b-profissional {
+  width: 900px;
+  margin: auto;
+  background-color: rgba(10, 23, 55, 0.5);
+  border: 1px solid #FFF; }
+  .b-profissional h3 {
+    color: #FFF;
+    margin-left: 30px;
+    font: 1.5em Roboto, Tahoma, Arial; }
+  .b-profissional p {
+    color: #FFF;
+    margin-left: 30px;
+    font: 1em Verdana, Tahoma, Arial; }
+
+.b-educacao {
+  width: 900px;
+  margin: auto;
+  background-color: rgba(10, 23, 55, 0.5);
+  border: 1px solid #FFF; }
+  .b-educacao h3 {
+    color: #FFF;
+    margin-left: 30px;
+    font: 1.5em Roboto, Tahoma, Arial; }
+  .b-educacao p {
+    color: #FFF;
+    margin-left: 30px;
+    font: 1em Verdana, Tahoma, Arial; }
+
+/*# sourceMappingURL=estilo-sobre.css.map */

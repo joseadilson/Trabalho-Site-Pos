@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$cor1: #FF0;
+$cor2: #F00;
+$cor3: #AAA;
+$cor4: #00F;
+$cor5: #FFF;
+$cor6: #DDD;
+$borda: 1px solid #FFF;
+$titulo: Tahoma, Arial;
+$descricao: Verdana, Tahoma, Arial;
+$nome-topo: Roboto, Tahoma, Arial;
+$largura: 900px;
+
+
+/*CSS da pagina sobre.html*/
+
+body {
+    background: url(../arquivos/ss.jpg) no-repeat;
+}
+
+h1 {
+    color: $cor5;
+    font: 1.8em $nome-topo;  
+    margin-left: 30px;  
+}
+
+nav {
+    
+    a {
+        color: $cor5;
+        float: right;
+        transition: all;
+        font: 1.1em $descricao;
+        margin-right: 40px;
+        margin-top: 6px;
+        &:hover{
+            color: $cor6;
+        }
+    }
+}
+
+#container-meio{
+    margin-top: 50px;
+    .b-educacao{
+        margin-top: 20px; 
+    }
+}
+
+
+.b-profissional{
+    width: $largura;
+    margin: auto;
+    background-color: rgba(10,23,55,0.5);
+    border: $borda;
+
+    h3{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.5em $nome-topo;
+    }
+
+    p{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.0em $descricao;
+    }
+}
+
+.b-educacao{
+    width: $largura;
+    margin: auto;
+    background-color: rgba(10,23,55,0.5);
+    border: $borda;
+
+    h3{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.5em $nome-topo;
+    }
+
+    p{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.0em $descricao;
+    }
+}
