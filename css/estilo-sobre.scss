@@ -43,11 +43,34 @@ nav {
 
 #container-meio{
     margin-top: 50px;
-    .b-educacao{
+    .b-profissional{
         margin-top: 20px; 
+    }
+
+    .b-jose{
+        margin-bottom: 20px; 
     }
 }
 
+
+.b-jose{
+    width: $largura;
+    margin: auto;
+    background-color: rgba(10,23,55,0.5);
+    border: $borda;
+
+    h3{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.5em $nome-topo;
+    }
+
+    p{
+        color: $cor5;
+        margin-left: 30px;
+        font: 1.0em $descricao;
+    }
+}
 
 .b-profissional{
     width: $largura;
