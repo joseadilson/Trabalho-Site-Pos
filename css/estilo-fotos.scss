@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$cor1: #FF0;
+$cor2: #F00;
+$cor3: #AAA;
+$cor4: #00F;
+$cor5: #FFF;
+$cor6: #000;
+$borda: 3px solid #CCC;
+$titulo: Tahoma, Arial;
+$descricao: Verdana, Tahoma, Arial;
+$nome-topo: Roboto, Tahoma, Arial;
+$largura: 930px;
+
+
+/*CSS da pagina fotos.html*/
+
+body{
+    background-color: $cor5;
+
+}
+
+#container-meio{
+    width: $largura;
+    margin: auto;
+}
+
+h1 {
+    color: $cor6;
+    font: 1.8em $nome-topo;    
+    margin-left: 30px;
+}
+
+
+h2#galeria{
+    color: $cor6;
+    text-align: center;
+    font: 3em 'Amatic SC', Tahoma ;
+}
+
+hr {
+    height: 2px;
+    border-bottom: 1px solid $cor3;
+    margin: 0px 30px 30px 30px;
+}
+
+nav {
+
+    a {
+        color: $cor6;
+        float: right;
+        transition: all;
+        font: 1.1em $descricao;
+        margin-right: 40px;    
+        margin-top: 6px;
+        &:hover{
+            color: $cor3;
+        }
+    }
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6  {
+    width: 300px;
+    margin-top: 6px;
+    border: $borda;   
+    border-style: double;
+    border-radius: 6px;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+    width: 290px;
+    -webkit-filter: opacity(100%);
+    filter:opacity(100%);
+    transform: scale(2);
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6  {
+    width: 300px;
+    transition: all 0.8s;
+}

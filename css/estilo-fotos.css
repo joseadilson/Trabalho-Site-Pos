@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*CSS da pagina fotos.html*/
+body {
+  background-color: #FFF; }
+
+#container-meio {
+  width: 930px;
+  margin: auto; }
+
+h1 {
+  color: #000;
+  font: 1.8em Roboto, Tahoma, Arial;
+  margin-left: 30px; }
+
+h2#galeria {
+  color: #000;
+  text-align: center;
+  font: 3em "Amatic SC", Tahoma; }
+
+hr {
+  height: 2px;
+  border-bottom: 1px solid #AAA;
+  margin: 0px 30px 30px 30px; }
+
+nav a {
+  color: #000;
+  float: right;
+  transition: all;
+  font: 1.1em Verdana, Tahoma, Arial;
+  margin-right: 40px;
+  margin-top: 6px; }
+  nav a:hover {
+    color: #AAA; }
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 300px;
+  margin-top: 6px;
+  border: 3px solid #CCC;
+  border-style: double;
+  border-radius: 6px; }
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+  width: 290px;
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+  transform: scale(2); }
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 300px;
+  transition: all 0.8s; }
+
+/*# sourceMappingURL=estilo-fotos.css.map */
