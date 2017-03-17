@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*CSS da pagina jose.html (contato)*/
+body {
+  background: #E0E0E0; }
+
+h1 {
+  color: #FFF;
+  font: 1.8em Roboto, Tahoma, Arial;
+  margin-left: 30px; }
+
+nav a {
+  color: #FFF;
+  float: right;
+  transition: all;
+  font: 1.1em Verdana, Tahoma, Arial;
+  margin-right: 40px;
+  margin-top: 6px; }
+  nav a:hover {
+    color: #F5F5F5; }
+
+#meio-abaixar {
+  margin-top: 50px; }
+
+#meio-largura {
+  width: 680px;
+  margin: auto; }
+
+.img-localizacao, .img-email, .img-telefone {
+  float: left;
+  margin: auto; }
+
+.p-localizacao, .p-email, .p-telefone {
+  margin-top: 50px;
+  margin-left: 50px; }
+
+p {
+  font: 1.1em Roboto, Tahoma, Arial; }
+
+#c-container {
+  width: 900px;
+  margin: auto;
+  text-align: center; }
+  #c-container h1 {
+    margin-top: 100px; }
+  #c-container a {
+    margin: 0px 100px 0px 50px; }
+
+.img {
+  border-radius: 100%; }
+  .img:hover {
+    background: #AAA; }
+
+#img-eu {
+  width: 900px;
+  margin: auto; }
+  #img-eu .img-jose {
+    max-width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -230px;
+    margin-left: 500px; }
+
+/*# sourceMappingURL=estilo-contato.css.map */

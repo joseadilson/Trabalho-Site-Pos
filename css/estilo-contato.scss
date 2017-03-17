@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$cor1: #FF0;
+$cor2: #F00;
+$cor3: #AAA;
+$cor4: #00F;
+$cor5: #FFF;
+$cor6: #DDD;
+$titulo: Tahoma, Arial;
+$descricao: Verdana, Tahoma, Arial;
+$nome-topo: Roboto, Tahoma, Arial;
+$borda: 1px solid #FFF;
+$largura: 900px;
+
+/*CSS da pagina jose.html (contato)*/
+
+body{
+    background: #E0E0E0;
+}
+
+h1 {
+    color: $cor5;
+    font: 1.8em $nome-topo;    
+    margin-left: 30px;
+}
+
+nav {
+    
+    a {
+        color: $cor5;
+        float: right;
+        transition: all;
+        font: 1.1em $descricao;
+        margin-right: 40px;
+        margin-top: 6px;
+        &:hover{
+            color: #F5F5F5;
+        }
+    }
+}
+
+#meio-abaixar{
+    margin-top: 50px;
+    
+}
+
+#meio-largura{
+    width: 680px;
+    margin: auto;
+}
+
+.img-localizacao, .img-email, .img-telefone{
+    float: left;
+    margin:auto;
+}
+
+.p-localizacao, .p-email, .p-telefone {
+    margin-top: 50px;
+    margin-left: 50px;    
+}
+
+
+p{    
+    font: 1.1em $nome-topo;
+}
+
+#c-container{    
+    width: $largura;
+    margin: auto;
+    text-align: center;            
+    
+    h1{
+        margin-top: 100px;
+    }
+
+    a{        
+        margin: 0px 100px 0px 50px;        
+    }
+    
+}
+
+.img{
+    border-radius: 100%;
+    &:hover{
+        background: $cor3;
+    }
+}
+
+#img-eu{    
+    width: $largura;
+    margin: auto;
+
+    .img-jose{
+        max-width:250px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -230px;
+        margin-left: 500px;
+    }
+}
